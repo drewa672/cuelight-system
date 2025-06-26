@@ -1,0 +1,13 @@
+#Setting up Device role
+The unified code bases what is set in the "device_role.JSON" file to determine what it will open as.
+
+##Device role.JSON
+This file determines what the device will boot as
+
+For Transmitter you should see this:
+{"role": "transmitter"}
+
+For Receiver you should see this:
+{"role": "receiver"}
+
+if there is any error in spelling, the device will default to a receiver.
