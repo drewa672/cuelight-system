@@ -27,5 +27,9 @@ The first setup was a Raspberry Pi 5 with the 7" DSI display as the transmitter,
 
 
 # **What's next**
+**ESP32 implementation**
 I will be working on adding an option for an ESP32 HMI Display which will be battery powered so I can mount the receivers inside of set pieces. Potentially even a wearable. 
 Once I get the 7-inch ESP32 display working, I'll add in an STL file and parts list for that setup.
+
+**sACN**
+for those that still have an in-house dimming system, I'm going to add in DMX over sACN to allow you to patch in those dimmers to control any installed string lights or bulbs.
